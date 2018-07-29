@@ -1,0 +1,217 @@
+<html>
+<head>
+</head>
+<title>FEEDBACK</title>
+<body style="background-image:url(H.jpg)">
+<style>
+p{
+color:white;
+font-family:"Bradley Hand ITC";
+font-style:bold;
+font-size:30px;
+font-weight:bold;
+padding-top:5px;
+padding-bottom:25px;
+margin-top:0px;
+margin-bottom:0px;
+
+}
+
+.changecolor{
+color:white;
+font-size:40px;
+}
+
+.ab{
+position:fixed;
+top:0px;
+left:0px;
+z-index:999;
+}
+.button {
+    background-color:red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.dropbtn {
+    background-color:black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+.a
+{
+float: right;
+display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: lightgray}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: skyblue;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+	width:50%;
+height:80%;
+background-color: rgba(0,0,100,0.2);
+margin-left:40px;
+}
+.try{
+position:fixed;
+top:0px;
+left:0px;
+background-color:black;
+}
+h1.serif {
+    font-family:"Algerian", Times, serif;
+     color:white;
+}
+h3.sansserif 
+{
+margin-top:50px;
+font-family:"Algerian", Helvetica, sans-serif;
+font-size:50;
+}
+.text
+{
+margin-left:10%;
+width:70%;
+height:8%;
+margin-right:10%;
+}
+.tes
+{
+margin-left:10%;
+width:25%;
+height:10%;
+margin-right:10%;
+background-color:green;
+}
+
+</style>
+<body>
+<div class="ab" style="width: 100%; background-color:black; height:50px">
+<div class="dropdown">
+  <button class="dropbtn" id="a">CATEGORY</button>
+  <div class="dropdown-content" id="b">
+    <a href="proj2/pr2.html">MEN</a>
+    <a href="proj2/ps1.html">WOMEN</a>
+</div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">MY ACCOUNTS</button>
+  <div class="dropdown-content">
+    <a href="signup.html">SIGN UP</a>
+    <a href="login.html">LOGIN</a>
+    <a href="home.html">HOME</a>
+  </div></div>
+<div class="feedback" style="float:right;">
+  <a href="proj2/shopping1.html" style="text-decoration:none;"><button class="dropbtn" id="a">PRODUCTS</button></a>
+</div>
+
+</div>
+<p><span class="changecolor">E</span>-BAZAAR</p>
+</div>
+<h3 class="sansserif">FEEDBACK</h3>
+
+<div class="container">
+  <form>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+	  <option value="india">INDIA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <a href="shopping1.html"><input type="submit" value="Submit"  onclick="abc()"></a>
+  </form>
+</div>
+<script>
+function abc()
+{ alert("THANKS FOR YOUR FEEDBACK");}
+</script>
+<div id="footer" style=color:white; font-style:bold; font-size:20px;opacity:0 font-family:Sans">
+<br><ul style="list-style-type:none;"><li><hr></li></ul>
+<ul style="list-style-type:none;"><li style=><br>&nbsp&nbsp&nbsp&nbspCONTACT US:</li></ul><br>
+<center><table>
+<tr><td style="padding:0 35px;"><a href="images/www.facebook.com"><img src="images/fb.png" height="100" width="150"></a></td><td style="padding:0 35px;"><a href="www.twitter.com"><img src="images/twitter.jpg" height="100" width="150"></a></td>
+<td style="padding:0 35px;"><a href="www.instagram.com" ><img src="images/insta.jpg" height="100" width="150"></a></td></tr>
+<tr><td style="padding:0 35px;">Facebook</td><td style="padding:0 35px;">Twitter</td><td style="padding:0 35px;">Instagram<td></td></tr></table></center>
+<ul style="list-style-type:none;"><li><center><br>Copyright © 2017 www.E-BAZAAR.com<br>
+All right reserved.</center></li>
+</ul><ul style="list-style-type:none;"><li><hr></li></ul>
+</div>
+
+</body>
+</html>
+
+

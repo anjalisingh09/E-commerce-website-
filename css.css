@@ -1,0 +1,131 @@
+body{background-color:#fff;
+margin:0;}
+ul {
+	
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ 	overflow:hidden;
+    background-color: #111;
+}
+#ul{background-color:#fff;}
+.banner1{padding:0;}
+.banner2{margin:0;padding:0;}
+.banner2 .trends h2{background-color:#5342f4;padding:12px;margin:0;}
+.banner2 .trends .content{float:left;width=100%;background-color:#999;}
+.banner2 .trends a{
+list-style-type:none;
+padding:0 0;background-color:#999;}
+.banner2 .trends .content1 a{background-color:#fff;}
+.banner2 .content1 a{float:left;}
+.banner2 .content2 a{float:left;}
+.banner2 .content3{float:left;}
+.benner2 .content4{float:right;}
+.banner{color:#fff;}
+a{text-decoration:none;
+color:#FE9C2B;}
+.nav li{ 
+	display:inline;
+	margin:0;
+	float:left;
+	border-right:none	;
+}
+.about{border-left:1px solid #fff;}
+.nav li a {
+	
+	margin:20px;
+    display:block;
+    width:40px;
+    margin:0;
+    padding:10px 28px ;
+    color:white;
+    background-color: #111;
+	text-decoration:none;
+	text-align:centre;
+}
+.nav li a:hover{background-color:#76E5AA;}
+.headerleft ul{
+background-color:#111;}
+.headerleft ul li{
+	padding:0 10px;
+	margin:0 10px; 0 0 ;
+	background-right:none;
+	color:white;
+	display:inline;
+}
+.nav .about{float:right;}
+.para{
+font-family:arial;
+font-weight:bold;
+font-size:15px;
+font-
+}
+.name {
+background-color:#fff;
+font-size:80px;
+font-family:cursive;
+}
+.name .name1 a{
+color:#08BEF6;
+}
+.label{
+background-color:3399ff;
+color:3399ff;
+}
+input[type="submit"]{
+font-style:bold;
+border:none;
+background-color:#3399ff;
+color:#fff;
+border-radius:5px;
+float:right;
+margin:1px;
+background-position:top;
+width:400px;
+height:60px;}
+.label{background-color:#fff;
+color:#fff;
+float:right;
+margin:1px;
+padding:10px 200px;}
+.label1{
+float:left;
+margin:10px;
+padding:5px 15px;}
+input[type="text"]{
+padding:10px 50px;
+border-color:#999;
+width:350px;
+height:30px;
+}
+input[type="password"]{
+padding:10px 50px;
+border-color:#999;
+width:350px;
+height:30px;
+}
+.checkbox1 {
+	margin-bottom: 4px;
+	padding-left: 27px;
+	font-size: 1.2em;
+	line-height: 40px;
+	cursor: pointer;
+	position: relative;
+	color:#555;
+	text-decoration:none;
+	font-style:bold;
+}
+.checkbox1:last-child {
+	margin-bottom: 0;
+}
+.label2{float:right;}
+.label3{
+text-decoration:none;
+color:#fff;
+background-color:#ff6600;
+border-radius:5px;
+margin:1px;
+padding:15px 175px;
+}
+
+
